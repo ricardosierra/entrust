@@ -13,7 +13,7 @@ class EntrustUserTest extends PHPUnit_Framework_TestCase
 {
     private $facadeMocks = array();
 
-    public function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 

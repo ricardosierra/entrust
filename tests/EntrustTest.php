@@ -12,7 +12,7 @@ class EntrustTest extends PHPUnit_Framework_TestCase
 
     protected $expectedResponse;
 
-    public function setUp()
+    protected function setUp(): void
     {
         $this->nullFilterTest = function($filterClosure) {
             if (!($filterClosure instanceof Closure)) {
