@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bc2d9d8322cf6d8c1fb0d97c10d5bee6",
+    "content-hash": "20eb69e4cb084ab97774375602e6ed8c",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -208,12 +208,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
-                "reference": "0a144c2ee0163f8debd62da1386036567b1ba6b4"
+                "reference": "b6c967359f3461ac763da12d995c72358228ae34"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/contracts/zipball/0a144c2ee0163f8debd62da1386036567b1ba6b4",
-                "reference": "0a144c2ee0163f8debd62da1386036567b1ba6b4",
+                "url": "https://api.github.com/repos/illuminate/contracts/zipball/b6c967359f3461ac763da12d995c72358228ae34",
+                "reference": "b6c967359f3461ac763da12d995c72358228ae34",
                 "shasum": ""
             },
             "require": {
@@ -244,7 +244,7 @@
             ],
             "description": "The Illuminate Contracts package.",
             "homepage": "https://laravel.com",
-            "time": "2020-08-13T14:33:00+00:00"
+            "time": "2020-08-28T11:11:49+00:00"
         },
         {
             "name": "illuminate/support",
@@ -313,12 +313,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "870ee2fb081954651d0d29de393a51c27aa26670"
+                "reference": "0a41ea7f7fedacf307b7a339800e10356a042918"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/870ee2fb081954651d0d29de393a51c27aa26670",
-                "reference": "870ee2fb081954651d0d29de393a51c27aa26670",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/0a41ea7f7fedacf307b7a339800e10356a042918",
+                "reference": "0a41ea7f7fedacf307b7a339800e10356a042918",
                 "shasum": ""
             },
             "require": {
@@ -394,7 +394,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-08-20T16:08:31+00:00"
+            "time": "2020-08-24T12:35:58+00:00"
         },
         {
             "name": "psr/container",
@@ -499,12 +499,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "1f601a29fd7591a0316bffbc0d7550a5953c6c1c"
+                "reference": "b39fd99b9297b67fb7633b7d8083957a97e1e727"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/1f601a29fd7591a0316bffbc0d7550a5953c6c1c",
-                "reference": "1f601a29fd7591a0316bffbc0d7550a5953c6c1c",
+                "url": "https://api.github.com/repos/symfony/console/zipball/b39fd99b9297b67fb7633b7d8083957a97e1e727",
+                "reference": "b39fd99b9297b67fb7633b7d8083957a97e1e727",
                 "shasum": ""
             },
             "require": {
@@ -582,7 +582,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-08-17T07:39:58+00:00"
+            "time": "2020-09-02T07:07:21+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -962,12 +962,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "5ce4b8aa0450254c1aef7ff12c5a8e1545b291eb"
+                "reference": "90f7b859d4f78b53729081e6741297959c2705a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/5ce4b8aa0450254c1aef7ff12c5a8e1545b291eb",
-                "reference": "5ce4b8aa0450254c1aef7ff12c5a8e1545b291eb",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/90f7b859d4f78b53729081e6741297959c2705a6",
+                "reference": "90f7b859d4f78b53729081e6741297959c2705a6",
                 "shasum": ""
             },
             "require": {
@@ -1009,6 +1009,9 @@
                 }
             },
             "autoload": {
+                "files": [
+                    "Resources/functions/translatable.php"
+                ],
                 "psr-4": {
                     "Symfony\\Component\\Translation\\": ""
                 },
@@ -1046,7 +1049,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-08-18T14:11:58+00:00"
+            "time": "2020-08-31T11:01:02+00:00"
         },
         {
             "name": "symfony/translation-contracts",
@@ -1428,12 +1431,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/database.git",
-                "reference": "0c54827529165c8c757881a69d3232cb476b6615"
+                "reference": "89dfc65582205a9d92ab28de4f6f3fc161d67f20"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/database/zipball/0c54827529165c8c757881a69d3232cb476b6615",
-                "reference": "0c54827529165c8c757881a69d3232cb476b6615",
+                "url": "https://api.github.com/repos/illuminate/database/zipball/89dfc65582205a9d92ab28de4f6f3fc161d67f20",
+                "reference": "89dfc65582205a9d92ab28de4f6f3fc161d67f20",
                 "shasum": ""
             },
             "require": {
@@ -1481,7 +1484,7 @@
                 "orm",
                 "sql"
             ],
-            "time": "2020-08-13T14:33:00+00:00"
+            "time": "2020-08-31T13:21:53+00:00"
         },
         {
             "name": "michelf/php-markdown",
@@ -1606,12 +1609,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/myclabs/DeepCopy.git",
-                "reference": "969b211f9a51aa1f6c01d1d2aef56d3bd91598e5"
+                "reference": "a3409d10079990eeb489c3fead0ac070b5b38895"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/969b211f9a51aa1f6c01d1d2aef56d3bd91598e5",
-                "reference": "969b211f9a51aa1f6c01d1d2aef56d3bd91598e5",
+                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/a3409d10079990eeb489c3fead0ac070b5b38895",
+                "reference": "a3409d10079990eeb489c3fead0ac070b5b38895",
                 "shasum": ""
             },
             "require": {
@@ -1652,7 +1655,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-06-29T13:22:24+00:00"
+            "time": "2020-08-28T16:31:07+00:00"
         },
         {
             "name": "nikic/php-parser",
@@ -3426,12 +3429,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "2061f4acad50c6f9b17880d3d5fc5916d7351f74"
+                "reference": "e2a69525b11a33be51cb00b8d6d13a9258a296b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/2061f4acad50c6f9b17880d3d5fc5916d7351f74",
-                "reference": "2061f4acad50c6f9b17880d3d5fc5916d7351f74",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/e2a69525b11a33be51cb00b8d6d13a9258a296b1",
+                "reference": "e2a69525b11a33be51cb00b8d6d13a9258a296b1",
                 "shasum": ""
             },
             "require": {
@@ -3491,7 +3494,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-08-23T09:22:13+00:00"
+            "time": "2020-08-26T08:30:46+00:00"
         },
         {
             "name": "theseer/tokenizer",
